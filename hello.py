@@ -1,1 +1,1 @@
-print("hello world!!!!! This is TeamCity")
+print("hello world from Python script")

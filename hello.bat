@@ -1,1 +1,1 @@
-echo "Hello World! This is TeamCity"
+echo "Hello World from Windows shell"
