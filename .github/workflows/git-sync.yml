@@ -1,3 +1,4 @@
+name: Synchronize repos
 on: push
 jobs:
   git-sync:
