@@ -6,7 +6,8 @@ jobs:
       - name: git-sync
         uses: wei/git-sync@v3
         with:
-          source_repo: "boyroid/teamcity"
+          source_repo: "git@github.com:boyroid/teamcity.git"
           source_branch: "main"
-          destination_repo: "boyroid/synchronization-test"
+          destination_repo: "git@github.com:boyroid/synchronization-test.git"
           destination_branch: "main"
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
