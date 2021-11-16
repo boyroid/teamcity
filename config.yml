@@ -1,0 +1,6 @@
+var_one: value_one
+var_two: value_two
+list_var:
+  - name: one
+    label: one
+var_bool: true
