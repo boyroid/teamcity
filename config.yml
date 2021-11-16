@@ -5,3 +5,4 @@ list_var:
   - name: one
     label: one
 var_bool: true
+var_two: value_two
